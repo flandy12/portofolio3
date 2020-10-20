@@ -10,7 +10,7 @@ body {
 }
 
 .MainOne {
-    background-image: url('/img/sean-pollock-PhYq704ffdA-unsplash.jpg');
+    background-image: url('../img/sean-pollock-PhYq704ffdA-unsplash.jpg');
     height: 600px;
     background-size: cover;
     background-attachment: fixed;
