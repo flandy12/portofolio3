@@ -11,11 +11,16 @@ class BelajarController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function login()
     {
-        return "Belajar contolor";
+        return view('login');
     }
-
+    public function Data(Request $request)
+    {
+        $email = $request->input('email');
+     	$password = $request->input('password');
+        return "Nama : ".$email.", pass : ".$password;
+    }
     /**
      * Show the form for creating a new resource.
      *

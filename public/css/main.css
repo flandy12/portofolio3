@@ -9,11 +9,22 @@ body {
     color: rgb(17, 17, 17);
 }
 
+.icon-all {
+    bottom: 20px;
+    right: 30px;
+    position: fixed;
+}
+.icon-wa{
+    filter: drop-shadow(0 0 20px rgba(88, 87, 87, 0.527));
+}
+
 .MainOne {
     background-image: url('../img/sean-pollock-PhYq704ffdA-unsplash.jpg');
     height: 600px;
+    position: relative;
     background-size: cover;
     background-attachment: fixed;
+    z-index:98;
 }
 
 .main-text {
@@ -50,14 +61,16 @@ body {
     border: 2px solid white;
     background-color: transparent;
 }
-
+.MainTwo {
+    z-index: 100;
+}
 .MainTwo .text {
     display: flex;
     align-items: center;
 }
 
 .MainTwo .ImgOne {
-    margin-top: 50px    ;
+    margin-top: 50px;
     margin-left: 40px;
     width: 280px;
     z-index: 3;
@@ -74,7 +87,13 @@ body {
     margin-left: 20px;
     width: 350px;
 }
-
+.MainFour{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.MainFour .img-five {
+    width: 100%;
+}
 .MainTwo p {
     color: rgb(88, 87, 87);
 }
@@ -82,7 +101,7 @@ body {
 .MainThree {
     background-color: #02052c;
     color: rgb(112, 111, 111);
-    padding:50px;
+    padding: 50px;
 }
 
 .MainThree .container {
@@ -110,20 +129,44 @@ body {
 .title p {
     color: rgb(131, 131, 131);
 }
+
 .media-body h5 {
     color: white;
 }
-.MainFour{
+
+.footer {
     padding: 30px;
     background-color: #050505;
-    color:#80858a;
+    color: #80858a;
+    position: relative;
 }
-.brandFooter{
-    width: 180px;
+.icon-header{
+    width: 50px;
 }
-.MainFour .situs{
+.brandFooter {
+    width: 150px;
+}
+
+.footer .situs {
     margin-left: 50px;
     display: flex;
     text-align: center;
     justify-content: center;
+}
+
+.mainform {
+    background: url('../img/sean-pollock-PhYq704ffdA-unsplash.jpg');
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.formAll {
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(226, 224, 224, 0.473);
+    margin: auto;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
 }

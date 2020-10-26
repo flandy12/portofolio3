@@ -17,8 +17,5 @@ Route::get('/', function () {
     return view('index');
 });
 
-// Route::get('index', function () {
-//     return view('index');
-// });
-
-// Route:: get('index', 'BelajarController@index');
+// mengambil login from dari view data
+Route:: get('/login', 'BelajarController@login');
