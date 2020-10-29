@@ -11,7 +11,7 @@ const mix = require('laravel-mix');
  */
 mix.js('resources/js/*.js', 'public/js/main.js')
     .sass('resources/sass/app.scss', 'public/css')
-    // .browserSync({
-    //     proxy: 'false',
-    //     files: "resources/view/*.php"
-    // });
+    .styles('resources/style/boostrap.css','public/css/boostrap.css')
+    .browserSync({
+        files: ["public/css/main.css","public/js/main.js"]
+    });

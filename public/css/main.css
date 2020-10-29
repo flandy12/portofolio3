@@ -1,3 +1,4 @@
+@import './boostrap.css';
 * {
     margin: 0;
     padding: 0;
@@ -87,20 +88,13 @@ body {
     margin-left: 20px;
     width: 350px;
 }
-.MainFour{
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-.MainFour .img-five {
-    width: 100%;
-}
 .MainTwo p {
     color: rgb(88, 87, 87);
 }
 
 .MainThree {
-    background-color: #02052c;
-    color: rgb(112, 111, 111);
+    background-color:#6633CC;
+    color: rgb(247, 245, 245);
     padding: 50px;
 }
 
@@ -115,7 +109,7 @@ body {
 
 .MainThree .row {
     margin-top: 10px;
-    color: rgb(143, 140, 140);
+    color: rgb(255, 255, 255);
 }
 
 .MainThree .icon {
@@ -127,17 +121,42 @@ body {
 }
 
 .title p {
-    color: rgb(131, 131, 131);
+    color: rgb(247, 247, 247);
 }
 
 .media-body h5 {
     color: white;
 }
 
+.MainFour{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.MainFour .img-five {
+    width: 100%;
+}
+.MainFive {
+    background-color: #eceaeade;
+    padding: 100px 0;
+    justify-content: center;
+    display: flex;
+}
+.MainFive .card {
+    box-shadow: 0 0 20px rgba(241, 241, 241, 0.397);
+    background-color: #6633CC;
+    color: rgb(245, 245, 245);
+}
+
+.MainFive .card:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    top: -20px;
+}
+
 .footer {
     padding: 30px;
-    background-color: #050505;
-    color: #80858a;
+    background-color: #080808;
+    color: #ececec;
     position: relative;
 }
 .icon-header{

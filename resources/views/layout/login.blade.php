@@ -21,7 +21,7 @@
     <div class="mainform">
         <div class="container">
             <div class="col-6 formAll">
-                <form method="POST" action="/login/data">
+                <form>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
