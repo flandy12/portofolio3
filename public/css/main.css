@@ -1,4 +1,5 @@
 @import './boostrap.css';
+
 * {
     margin: 0;
     padding: 0;
@@ -9,183 +10,387 @@ body {
     font-size: 18px;
     color: rgb(17, 17, 17);
 }
+@media (min-width:992px) {
+    .icon-all {
+        z-index: 999;
+        bottom: 20px;
+        right: 30px;
+        position: fixed;
+    }
 
-.icon-all {
-    bottom: 20px;
-    right: 30px;
-    position: fixed;
-}
-.icon-wa{
-    filter: drop-shadow(0 0 20px rgba(88, 87, 87, 0.527));
+    .icon-wa {
+        filter: drop-shadow(0 0 20px rgba(88, 87, 87, 0.527));
+    }
+
+    .MainOne {
+        background-image: url('../img/sean-pollock-PhYq704ffdA-unsplash.jpg');
+        height: 600px;
+        position: relative;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .main-text {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 670px;
+        padding: 20% 0 0 0;
+        color: white;
+    }
+
+    .main-text h2 {
+        font: bold;
+        color: rgb(255, 255, 255);
+    }
+
+    .main-text p {
+        font-size: 20px;
+    }
+
+    .main-button {
+        margin-top: 40px;
+    }
+
+    .main-button .btn-1 {
+        width: 150px;
+        height: 50px;
+        background-color: aqua;
+    }
+
+    .main-button .btn-2 {
+        /* margin-left: 20px; */
+        width: 150px;
+        height: 50px;
+        color: white;
+        border: 2px solid white;
+        background-color: transparent;
+    }
+    
+    .MainTwo{
+        z-index: 100;
+    }
+
+    .MainTwo .text {
+        display: flex;
+        color: black;
+        align-items: center;
+    }
+
+    .MainTwo .ImgOne {
+        margin-top: 50px;
+        margin-left: 40px;
+        width: 300px;
+        z-index: 3;
+    }
+
+    .MainTwo .MainImg {
+        display: flex;
+    }
+
+    .MainTwo .Imgtwo {
+        position: absolute;
+        z-index: 1;
+        margin-top: 100px;
+        margin-left: 50px;
+        width: 300px;
+    }
+
+
+    .MainThree {
+        background-color: #6633CC;
+        color: rgb(247, 245, 245);
+        padding: 50px;
+    }
+
+    .MainThree .container {
+        max-width: 1100px;
+    }
+
+    .MainThree .title {
+        text-align: center;
+        margin: auto;
+    }
+
+    .MainThree .row {
+        margin-top: 10px;
+        color: rgb(255, 255, 255);
+    }
+
+    .MainThree .icon {
+        margin-right: 20px;
+    }
+
+    .title h4 {
+        color: rgb(245, 241, 241);
+    }
+
+    .title p {
+        color: rgb(247, 247, 247);
+    }
+
+    .media-body h5 {
+        color: white;
+    }
+
+    .MainFour {
+       
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .MainFour .img-five {
+      display: block;
+      width: 100%;
+    }
+
+    .MainFive {
+        background-color: #eceaeade;
+        padding: 60px 50px;
+        justify-content: center;
+        display: flex;
+    }
+   
+    .MainFive .card {
+        box-shadow: 0 0 20px rgba(241, 241, 241, 0.397);
+        background-color: #6633CC;
+        color: rgb(245, 245, 245);
+    }
+
+    .MainFive .card:hover {
+        background-color: white;
+        color: rgb(0, 0, 0);
+        top: -20px;
+    }
+
+    .footer {
+        padding: 30px;
+        background-color: #080808;
+        color: #ececec;
+        position: relative;
+    }
+
+    .icon-header {
+        width: 50px;
+    }
+
+    .brandFooter {
+        width: 100px;
+        height:100px;
+    }
+
+    .footer .situs {
+        margin-left: 50px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .mainform {
+        background: url('../img/sean-pollock-PhYq704ffdA-unsplash.jpg');
+        background-size: cover;
+        padding: 50px 0;
+    }
+
+    .formAll {
+        height: 500px;
+        text-align: center;
+        justify-content: center;
+        background-color: rgba(226, 224, 224, 0.473);
+        margin: auto;
+        border-radius: 5px;
+        align-items: center;
+        display: flex;
+    }
 }
 
-.MainOne {
-    background-image: url('../img/sean-pollock-PhYq704ffdA-unsplash.jpg');
-    height: 600px;
-    position: relative;
-    background-size: cover;
-    background-attachment: fixed;
-    z-index:98;
-}
+@media (min-width:1200px) {
+    .icon-all {
+        z-index: 999;
+        bottom: 20px;
+        right: 30px;
+        position: fixed;
+    }
 
-.main-text {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 670px;
-    padding: 20% 0 0 0;
-    color: white;
-}
+    .icon-wa {
+        filter: drop-shadow(0 0 20px rgba(88, 87, 87, 0.527));
+    }
 
-.main-text h2 {
-    font: bold;
-    color: rgb(255, 255, 255);
-}
+    .MainOne {
+        background-image: url('../img/sean-pollock-PhYq704ffdA-unsplash.jpg');
+        height: 600px;
+        position: relative;
+        background-size: cover;
+        background-attachment: fixed;
+        z-index: 1000;
+    }
 
-.main-text p {
-    font-size: 20px;
-}
+    .main-text {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 670px;
+        padding: 20% 0 0 0;
+        color: white;
+    }
 
-.main-button {
-    margin-top: 40px;
-}
+    .main-text h2 {
+        font: bold;
+        color: rgb(255, 255, 255);
+    }
 
-.main-button .btn-1 {
-    width: 150px;
-    height: 50px;
-    background-color: aqua;
-}
+    .main-text p {
+        font-size: 20px;
+    }
 
-.main-button .btn-2 {
-    /* margin-left: 20px; */
-    width: 150px;
-    height: 50px;
-    color: white;
-    border: 2px solid white;
-    background-color: transparent;
-}
-.MainTwo {
-    z-index: 100;
-}
-.MainTwo .text {
-    display: flex;
-    align-items: center;
-}
+    .main-button {
+        margin-top: 40px;
+    }
 
-.MainTwo .ImgOne {
-    margin-top: 50px;
-    margin-left: 40px;
-    width: 280px;
-    z-index: 3;
-}
+    .main-button .btn-1 {
+        width: 150px;
+        height: 50px;
+        background-color: aqua;
+    }
 
-.MainTwo .MainImg {
-    display: flex;
-}
+    .main-button .btn-2 {
+        /* margin-left: 20px; */
+        width: 150px;
+        height: 50px;
+        color: white;
+        border: 2px solid white;
+        background-color: transparent;
+    }
 
-.MainTwo .Imgtwo {
-    position: absolute;
-    z-index: 1;
-    margin-top: 80px;
-    margin-left: 20px;
-    width: 350px;
-}
-.MainTwo p {
-    color: rgb(88, 87, 87);
-}
+    .MainTwo {
+        z-index: 100;
+    }
 
-.MainThree {
-    background-color:#6633CC;
-    color: rgb(247, 245, 245);
-    padding: 50px;
-}
+    .MainTwo .text {
+        display: flex;
+        color: black;
+        width: 500px;
+        padding: 0px;
+        align-items: center;
+    }
 
-.MainThree .container {
-    max-width: 1100px;
-}
+    .MainTwo .ImgOne {
+        margin-top: 50px;
+        margin-left: 40px;
+        width: 280px;
+        z-index: 3;
+    }
 
-.MainThree .title {
-    text-align: center;
-    margin: auto;
-}
+    .MainTwo .MainImg {
+        display: flex;
+    }
 
-.MainThree .row {
-    margin-top: 10px;
-    color: rgb(255, 255, 255);
-}
+    .MainTwo .Imgtwo {
+        position: absolute;
+        z-index: 1;
+        margin-top: 80px;
+        margin-left: 20px;
+        width: 350px;
+    }
+    
+    .MainThree {
+        background-color: #6633CC;
+        color: rgb(247, 245, 245);
+        padding: 50px;
+    }
 
-.MainThree .icon {
-    margin-right: 20px;
-}
+    .MainThree .container {
+        max-width: 1100px;
+    }
 
-.title h4 {
-    color: rgb(245, 241, 241);
-}
+    .MainThree .title {
+        text-align: center;
+        margin: auto;
+    }
 
-.title p {
-    color: rgb(247, 247, 247);
-}
+    .MainThree .row {
+        margin-top: 10px;
+        color: rgb(255, 255, 255);
+    }
 
-.media-body h5 {
-    color: white;
-}
+    .MainThree .icon {
+        margin-right: 20px;
+    }
 
-.MainFour{
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-.MainFour .img-five {
-    width: 100%;
-}
-.MainFive {
-    background-color: #eceaeade;
-    padding: 100px 0;
-    justify-content: center;
-    display: flex;
-}
-.MainFive .card {
-    box-shadow: 0 0 20px rgba(241, 241, 241, 0.397);
-    background-color: #6633CC;
-    color: rgb(245, 245, 245);
-}
+    .title h4 {
+        color: rgb(245, 241, 241);
+    }
 
-.MainFive .card:hover{
-    background-color: white;
-    color: rgb(0, 0, 0);
-    top: -20px;
-}
+    .title p {
+        color: rgb(247, 247, 247);
+    }
 
-.footer {
-    padding: 30px;
-    background-color: #080808;
-    color: #ececec;
-    position: relative;
-}
-.icon-header{
-    width: 50px;
-}
-.brandFooter {
-    width: 150px;
-}
+    .media-body h5 {
+        color: white;
+    }
 
-.footer .situs {
-    margin-left: 50px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
+    .MainFour {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
 
-.mainform {
-    background: url('../img/sean-pollock-PhYq704ffdA-unsplash.jpg');
-    background-size: cover;
-    padding: 50px 0;
-}
+    .MainFour .img-five {
+        margin-left: 40px;
+        width: 100%;
+    }
 
-.formAll {
-    height: 500px;
-    text-align: center;
-    justify-content: center;
-    background-color: rgba(226, 224, 224, 0.473);
-    margin: auto;
-    border-radius: 5px;
-    align-items: center;
-    display: flex;
+    .MainFive {
+        background-color: #eceaeade;
+        padding: 100px 0;
+        justify-content: center;
+        display: flex;
+    }
+
+    .MainFive .card {
+        box-shadow: 0 0 20px rgba(241, 241, 241, 0.397);
+        background-color: #6633CC;
+        color: rgb(245, 245, 245);
+    }
+
+    .MainFive .card:hover {
+        background-color: white;
+        color: rgb(0, 0, 0);
+        top: -20px;
+    }
+
+    .footer {
+        padding: 30px;
+        background-color: #080808;
+        color: #ececec;
+        position: relative;
+    }
+
+    .icon-header {
+        width: 50px;
+    }
+
+    .brandFooter {
+        width: 110px;
+        height:110px;
+    }
+
+    .footer .situs {
+        margin-left: 50px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .mainform {
+        background: url('../img/sean-pollock-PhYq704ffdA-unsplash.jpg');
+        background-size: cover;
+        padding: 50px 0;
+    }
+
+    .formAll {
+        height: 500px;
+        text-align: center;
+        justify-content: center;
+        background-color: rgba(226, 224, 224, 0.473);
+        margin: auto;
+        border-radius: 5px;
+        align-items: center;
+        display: flex;
+    }
 }
