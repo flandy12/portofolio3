@@ -1,0 +1,21 @@
+.situsAll{
+    max-width: 1200px;
+    margin: auto;
+}
+.situsAll h2{
+    text-align: center;
+    margin: auto;
+}
+.situsAll .imgSosial{
+    display: flex;
+    justify-content: center;
+}
+.situsAll .tittle{
+    text-align: center;
+}
+.situsAll .imgSosial img{
+   width: 100px;  
+   height: 100px;    
+   object-fit: cover;
+   border-radius: 55%;
+}

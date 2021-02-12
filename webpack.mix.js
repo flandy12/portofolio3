@@ -1,4 +1,5 @@
 const mix = require('laravel-mix');
+var $ = require('jquery');
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -11,7 +12,10 @@ const mix = require('laravel-mix');
  */
 mix.js('resources/js/*.js', 'public/js/main.js')
     .sass('resources/sass/app.scss', 'public/css')
-    .styles('resources/style/boostrap.css','public/css/boostrap.css')
+    .styles('resources/style','public/css/boostrap.css')
     .browserSync({
         files: ["public/css/main.css","public/js/main.js"]
+    })
+    .autoload({
+        jquery: ['$', 'window.jQuery']
     });

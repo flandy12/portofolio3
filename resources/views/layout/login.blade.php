@@ -21,7 +21,8 @@
     <div class="mainform">
         <div class="container">
             <div class="col-6 formAll">
-                <form>
+                <form action="/login/proses" method="POST">
+                    @csrf
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
@@ -35,7 +36,7 @@
                     <button type="submit" class="btn btn-primary" name="submit">Submit</button>
                 </form>
             </div>
-        </div>
+        </div>9im                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
     </div>
     @yield('footer')
     

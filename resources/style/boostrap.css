@@ -4345,7 +4345,7 @@ input[type=submit].btn-block {
 }
 
 .custom-select:focus {
-    border-color: #80bdff;
+    border-color: #037dff;
     outline: 0;
     box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
 }

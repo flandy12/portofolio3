@@ -4,7 +4,7 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar-example2">
         <div class="container">
-            <img src="../img/icon.png" class="icon-header">
+            <img src="{{asset('img/icon.png')}}" class="icon-header">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -43,7 +43,7 @@
                 </div>
             </div>
             <div class="col-5">
-                <img src="./img/christina-wocintechchat-com-faEfWCdOKIg-unsplash.jpg" class="img-five">
+                <img src="{{asset('img/christina-wocintechchat-com-faEfWCdOKIg-unsplash.jpg')}}" class="img-five">
             </div>
         </div>
     </div>
@@ -55,7 +55,7 @@
     <div class="container">
         <div class="row">
             <div class="col-3">
-                <img src="./img/icon.png" alt="Logo Perusahaan" class="brandFooter">
+                <img src="{{asset('img/icon.png')}}" alt="Logo Perusahaan" class="brandFooter">
             </div>
             <div class="col-5">
                 <div class="row">

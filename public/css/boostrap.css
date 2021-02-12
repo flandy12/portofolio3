@@ -4345,7 +4345,7 @@ input[type=submit].btn-block {
 }
 
 .custom-select:focus {
-    border-color: #80bdff;
+    border-color: #037dff;
     outline: 0;
     box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
 }
@@ -11450,3 +11450,25 @@ a.text-dark:hover {
 }
 
 /*# sourceMappingURL=bootstrap.min.css.map */
+
+.situsAll{
+    max-width: 1200px;
+    margin: auto;
+}
+.situsAll h2{
+    text-align: center;
+    margin: auto;
+}
+.situsAll .imgSosial{
+    display: flex;
+    justify-content: center;
+}
+.situsAll .tittle{
+    text-align: center;
+}
+.situsAll .imgSosial img{
+   width: 100px;  
+   height: 100px;    
+   object-fit: cover;
+   border-radius: 55%;
+}

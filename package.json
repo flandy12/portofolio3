@@ -1,6 +1,6 @@
 {
   "name": "laravel_pemula",
-  "description": "untuk cara penggunaanya bila kalian menggunkan xampp kalian buat dahulu folder baru di xampp/htdocs/dan nama folder kalian \r contoh xampp/htdocs/laravel(nama folder saya).\r bila sudah masuk di folder yang kalian buat\r jalankan xampp control kalian masuk ke localhost:8080 > ini nama localhost saya\r setelah itu masuk ke folder",
+  "description": "untuk cara penggunaanya bila kalian menggunakan xampp kalian buat dahulu folder baru di xampp/htdocs/dan nama folder kalian \r contoh xampp/htdocs/laravel(nama folder saya).\r bila sudah masuk di folder yang kalian buat.\r jalankan xampp control kalian masuk ke localhost:8080 > ini nama localhost saya\r setelah itu masuk ke folder",
   "version": "1.0.0",
   "main": "webpack.mix.js",
   "directories": {

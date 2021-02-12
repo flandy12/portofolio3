@@ -4,14 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class BelajarController extends Controller
+class login extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function login()
+    public function index()
     {
         return view('login');
     }
@@ -24,16 +24,17 @@ class BelajarController extends Controller
     {
         //
     }
-
     /**
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function Data(Request $request)
     {
-        //
+        $email = $request->input('email');
+        $password = $request->input('password');
+       return view('admin', ['email'=> $email]);
     }
 
     /**
